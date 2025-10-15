@@ -201,9 +201,58 @@
           },
           "users": [2, 4]
         }
-
-
-       
+      } 
+    },
+    "WorkshopDataBikes": {
+      "name": "WorkshopData Bikes",
+      "packs": {
+        "MechanicPack": {
+          "name": "Mechanic Pack",
+          "pricing": {
+            "monthly": {
+              "GBP": {
+                "price": 45,
+                "link": "https://example.com/subscribe/bikes/mechanic/gbp/monthly"
+              },
+              "EUR": {
+                "price": 52,
+                "link": "https://example.com/subscribe/bikes/mechanic/eur/monthly"
+              }
+            },
+            "annual": {
+              "GBP": {
+                "price": 450,
+                "link": "https://example.com/subscribe/bikes/mechanic/gbp/annual"
+              },
+              "EUR": {
+                "price": 520,
+                "link": "https://example.com/subscribe/bikes/mechanic/eur/annual"
+              }
+            }
+          },
+          "features": {
+            "monthly": [
+              "Identification data",
+              "Maintenance",
+              "Adjustment data",
+              "Lubricants and fluids",
+              "Repair manuals",
+              "Recalls",
+              "Technical drawings"
+            ],
+            "annual": [
+              "Identification data",
+              "Maintenance",
+              "Adjustment data",
+              "Lubricants and fluids",
+              "Repair manuals",
+              "Recalls",
+              "Technical drawings",
+              "Priority support"
+            ]
+          },
+          "users": [2, 4]
+        }
       }
     }
   }
